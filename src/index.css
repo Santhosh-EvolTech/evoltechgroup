@@ -1,0 +1,538 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Jost", sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  /* width: 5px;
+  height: 5px; */
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+li.pro-menu-item::marker {
+  font-size: 0%;
+}
+
+.ql-toolbar {
+  background-color: rgb(158, 171, 171);
+}
+.ql-editor {
+  height: 800px !important;
+}
+.css-hyum1k-MuiToolbar-root {
+  background: #02070f;
+}
+.css-ypiqx9-MuiDialogContent-root {
+  background: radial-gradient(
+    circle at bottom,
+    #0c63ae 0%,
+    #112540 50%,
+    #0e1c31 58%,
+    #02070f 80%
+  );
+}
+
+.css-hlj6pa-MuiDialogActions-root {
+  background: radial-gradient(
+    circle at bottom,
+    #0c63ae 0%,
+    #112540 50%,
+    #0e1c31 58%,
+    #02070f 80%
+  );
+}
+
+.card-style {
+  color: white !important;
+  background-color: transparent !important;
+  padding: 10px;
+  border-radius: 52px;
+  height: 500px;
+  overflow-y: scroll;
+  box-shadow: 18px 18px 70px #112540, -18px -18px 70px #0e1c31;
+}
+.role-card-style {
+  color: white !important;
+  background-color: transparent !important;
+  padding: 10px;
+  border-radius: 52px;
+  height: 230px;
+  overflow-y: scroll;
+  box-shadow: 18px 18px 70px #112540, -18px -18px 70px #0e1c31;
+}
+.MuiPaper-root {
+  color: white !important;
+  background-color: transparent !important;
+}
+.card-style .MuiPaper-root {
+  color: white !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.role-card-style .MuiPaper-root {
+  color: white !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.MuiPaper-elevation1 {
+  box-shadow: 9px 10px 31px 7px rgba(21, 22, 50, 1);
+}
+.cardContent {
+  margin: 0 5px 0 0;
+  word-wrap: break-word;
+  max-height: 100px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.cardContent::-webkit-scrollbar {
+  display: none;
+}
+.blog-header {
+  font-weight: 600;
+  padding-right: 5px;
+  height: 28px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.dialog {
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.blog-image {
+  transition: transform 0.5s;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.blog-image:hover {
+  transform: scale(1.1);
+}
+
+.rich-text {
+  word-break: break-word;
+}
+.rich-text img {
+  width: 80%;
+  height: 80%;
+}
+
+.fade-in {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  top: 45%;
+  color: white !important;
+  position: absolute;
+}
+
+/* .MuiDrawer-paperAnchorLeft{
+  background-color: white !important;
+  color: black !important;
+  background: transparent !important;
+} */
+
+.BurgerMenu {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-color: black;
+  position: relative;
+}
+
+.Logo img {
+  height: 20px;
+  width: 100px;
+  position: relative;
+  margin: inherit;
+}
+/* .Introduction {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  background: transparent !important;
+  margin: 0 auto;
+ overflow: hidden !important; 
+  background-color: transparent;
+} */
+
+.home span {
+  display: flex;
+  font-size: 50px;
+  font-weight: 300;
+  align-content: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#large-header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: radial-gradient(
+    circle at bottom,
+    #0c63ae 0%,
+    #112540 50%,
+    #0e1c31 58%,
+    #02070f 80%
+  );
+  text-align: center;
+  position: fixed;
+  overflow: hidden;
+}
+#x-canvas {
+  opacity: 1;
+  background: transparent !important;
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.Evolve {
+  font-size: 64px;
+  font-weight: 300;
+  width: auto;
+  height: auto;
+  text-align: center;
+  line-height: 92.48px;
+  margin-top: 50px;
+}
+
+.content_1 {
+  margin-top: 13%;
+  font-size: 30px;
+  font-weight: 300;
+  width: auto;
+  height: auto;
+  color: #b6bce9;
+  line-height: 30px;
+  position: absolute;
+}
+
+.container div #bold {
+  font-weight: 400;
+  size: 30px;
+  color: white;
+}
+
+.content_2 {
+  text-align: center;
+}
+
+.svg-wrapper {
+  -webkit-animation: fade-out 1s ease-out both;
+  animation: fade-out 1s ease-out both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    circle at bottom,
+    #0c63ae 0%,
+    #112540 50%,
+    #0e1c31 58%,
+    #02070f 80%
+  );
+  height: 100%;
+  width: 100%;
+}
+
+/* Loader Fade Out */
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.work-with-us {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  font-size: 4rem;
+  font-weight: 300;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 5%;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  align-items: center;
+}
+
+.centered-paragraph {
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.highlighted {
+  color: #b6bce9; /* Change the color as desired for highlighted words */
+  font-weight: 350;
+  font-size: 22px;
+}
+
+#wwu-scribble {
+  position: absolute;
+  margin-top: 5%;
+}
+
+/* Fade in Landing Page */
+
+.fade-in {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Arrow Button */
+
+.cta {
+  border: none;
+  background: none;
+  position: absolute;
+  margin-top: 20%;
+  cursor: pointer;
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 16px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: #b6bce9;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #b6bce9;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.join-us {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  font-size: 64px;
+  font-weight: 300;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.join-us-container {
+  display: flex;
+  margin-top: 5%;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  align-items: center;
+}
+
+.join-us-centered {
+  margin-top: 50px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.MuiPaper-root ul {
+  color: white !important;
+  background-color: #3e4396 !important;
+}
+
+.MuiPaper-root .MuiDataGrid-panelWrapper {
+  color: white !important;
+  background-color: #3e4396 !important;
+}
+
+.blog-container {
+  display: flex;
+  position: relative;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.blog-container::-webkit-scrollbar {
+  display: none;
+}
+.blog-card {
+  flex: 0 0 auto;
+  width: 400px;
+  margin-right: 10px;
+  scroll-snap-align: start;
+}
+
+footer {
+  max-width: --p-breakpoints-xl;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  row-gap: 10px;
+  align-items: stretch;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  max-width: 1872px;
+}
+
+.footer-container {
+  margin: 12px 0 0 25px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+}
+
+.footer-nav {
+  display: flex;
+  gap: 10px;
+  margin: 35px;
+}
